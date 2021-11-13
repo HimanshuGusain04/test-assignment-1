@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .input{
+    @apply border rounded-sm focus:outline-none h-8 w-40
+} */
+
+
+.scrollbar::-webkit-scrollbar {
+    @apply w-2 cursor-pointer bg-gray-300
+
+}
+.scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100 cursor-pointer
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 cursor-pointer rounded-md
+}
+
+.channel-item {
+    @apply px-2 py-1 hover:bg-gray-200 hover:bg-opacity-10 text-white rounded-md cursor-pointer
+}
